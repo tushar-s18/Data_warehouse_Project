@@ -1,3 +1,7 @@
+/*
+Create Bronze Tables
+*/
+
 create table bronze.crm_cust_info (
 cst_id	int,
 cst_key	nvarchar(50),
@@ -46,4 +50,5 @@ ID nvarchar(50),
 CAT nvarchar(50),
 SUBCAT nvarchar(50),
 MAINTENANCE nvarchar(50)
+
 );
